@@ -1,0 +1,70 @@
+/* CSS untuk header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Tambahkan position relative */
+}
+
+/* CSS untuk logo di dalam header */
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* CSS untuk navigasi di dalam header */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    position: absolute; /* Tambahkan position absolute */
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* CSS untuk konten utama */
+main {
+    padding: 20px;
+}
+
+/* CSS untuk kotak berita */
+div {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    position: relative; /* Tambahkan position relative */
+}
+
+/* CSS untuk gambar dalam berita */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* CSS untuk tanggal dan waktu dalam berita terkini */
+span {
+    display: block;
+    font-size: 14px;
+    color: #888;
+}
+
+/* CSS untuk footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
